@@ -1,4 +1,4 @@
-require 'pry'
+
 
 def user_prompt
   puts "Guess a number between 1 and 6, or type 'exit' to end game"
@@ -31,7 +31,6 @@ end
 def run_guessing_game
 
   user_prompt
- 
   results
 end 
 
